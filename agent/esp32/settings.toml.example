@@ -1,0 +1,8 @@
+# Copy this file to the root of your CIRCUITPY drive as "settings.toml"
+# and fill in your real network credentials.
+
+CIRCUITPY_WIFI_SSID = "your-network-name"
+CIRCUITPY_WIFI_PASSWORD = "your-network-password"
+
+# Optional - defaults to "pixelkit" (i.e. reachable at pixelkit.local)
+# PIXELLINK_HOSTNAME = "retailkit"

@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pixellink"
+version = "0.1.0"
+description = "Link and control Kano Pixel Kits over the network"
+readme = "README.md"
+requires-python = ">=3.7"
+license = { text = "MIT" }
+
+[tool.setuptools]
+py-modules = ["pixellink", "pixellink_font", "pixellink_ble"]
+
+[project.optional-dependencies]
+ble = ["bleak"]
